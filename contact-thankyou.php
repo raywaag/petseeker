@@ -255,37 +255,10 @@
           </div>
         <div class="row">
           <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">            
-            <form method="POST" class="p-md-5 p-4 mb-5">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" id="name" class="form-control ">
-                </div>
-                <div class="col-md-6 form-group">
-                  <label for="phone">Phone</label>
-                  <input type="text" name="phone" id="phone" class="form-control ">
-                </div>
-              </div>
-          
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label for="email">Email</label>
-                  <input type="email" name="email" id="email" class="form-control ">
-                </div>
-              </div>
-              <div class="row mb-4">
-                <div class="col-md-12 form-group">
-                  <label for="message">Write Message</label>
-                  <textarea name="message" name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary text-white font-weight-bold">
-                  <div class="submitting"></div>
-                </div>
-              </div>
-            </form>
+            <h3 class="text-center">
+              <?php include 'contact-submit.php'; ?>
+              Thanks for being awesome!! We will get back to you very soon!
+            </h3>
           </div>
         </div>
       </div>
@@ -305,7 +278,7 @@
         </div>
       </section>
 
-      <footer class="section footer-section" id="footer">
+      <footer class="section footer-section">
         <div class="container">
           <div class="row mb-4">
             <div class="col-md-3 mb-5">
@@ -325,11 +298,13 @@
               </ul>
             </div>
             <div class="col-md-6 mb-5">
-              <p style="color:#7fc3c0">
-                THANK YOU 
-                <br /> 
-                We are glad you are now a part of the family!
-              </p>
+              <p>Sign up for our newsletter</p>
+              <form method="POST" action="addto-newsletter.php" class="footer-newsletter">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email Address">
+                  <button type="submit" class="btn btn-outline-white-primary py-1 text-white">Sign Up</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

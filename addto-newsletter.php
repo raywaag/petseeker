@@ -18,7 +18,6 @@ $location = "newsletter-added.php#footer";
 $sender = $recipient;
 
 # MAIL BODY
-$body .= "name: ".$_REQUEST['name']." \n";
 $body .= "email: ".$_REQUEST['email']." \n";
 # add more fields here if required
 
