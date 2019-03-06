@@ -12,6 +12,16 @@ body {
   position: relative;
   font-family: 'Open Sans', sans-serif;  
 }
+strong { 
+  font-weight: bold; 
+}
+a {
+  color:#6eadaa;
+}
+a:hover {
+  color:#98d6d3;
+}
+
 
 /* ====
 HIGHLIGHTS
@@ -105,7 +115,7 @@ textarea.form-control {
 }
 
 .find-pet{
-  margin-top: -170px;
+  margin-top: -110px;
   position: relative; 
 }
   .find-pet .block-32 {
@@ -117,7 +127,7 @@ textarea.form-control {
   background-size: cover;
   height: 100vh;
   min-height: 700px;
-  width: 100%;
+  max-width: 100%;
   position: relative; 
 }
   .site-hero .heading {
@@ -491,3 +501,41 @@ textarea.form-control {
         color: #3b3b3d !important; 
       } 
     }
+
+#section-mission i {
+  font-size:10vh;
+  text-align: center;
+  margin:0;
+  padding:10%;
+  color:#7fc3c0;
+}
+#section-mission .icon-about{
+  text-align: center;
+}
+#section-mission p {
+  text-align: center;
+}
+    #section-mission p span {
+      font-size:30px;
+      font-family: 'Old Standard TT', serif;
+      font-weight: 600;
+      color: #3b3b3d;
+    }
+.about {
+  padding:30px;
+}
+  .about p span {
+    font-size:30px;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 600;
+    color: #7fc3c0;
+  }
+  @media (max-width: 991.98px) {
+    .about .about-img img{
+    margin-bottom:10%;
+  }
+  .about .find-pet {
+    margin-top:5%;
+    margin-bottom:35%;
+  }
+}
