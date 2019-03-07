@@ -21,6 +21,10 @@ a {
 a:hover {
   color:#98d6d3;
 }
+.list-group-item {
+  background-color: transparent;
+}
+
 
 
 /* ====
