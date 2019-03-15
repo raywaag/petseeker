@@ -30,7 +30,7 @@
             <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="shelters.html">Shelters</a></li>
             <li class="nav-item"><a class="nav-link" href="pet-care.html">Pet Care</a></li>
-            <li class="nav-item btn-nav ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0"><a class="nav-link" href="involved.html"><span class="toggled_rounded-4 px-4 rounded">Get Involved</span></a></li>
+            <li class="nav-item btn-nav ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0"><a class="nav-link" href="login.html"><span class="toggled_rounded-4 px-4 rounded">SIGN IN</span></a></li>
           </ul>
         </div>
       </div>
@@ -357,7 +357,10 @@
                     </div>
                     <div class="row">
                       <div class="col-md-6 form-group">
-                        <input type="submit" value="ADOPT" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
+                        <input type="submit" value="DOGS" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
+                      </div>
+                      <div class="col-md-6 form-group">
+                        <input type="submit" value="CATS" class="btn btn-primary text-white py-3 px-5 font-weight-bold">
                       </div>
                     </div>
                   </form>
